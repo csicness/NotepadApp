@@ -1,0 +1,21 @@
+﻿<Window x:Class="Notepad.HelpDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Notepad"
+        mc:Ignorable="d"
+        Title="About" Height="200" Width="300">
+
+    <Grid Background="Black">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Style="{StaticResource Header}">Created by: cSic</TextBlock>
+            <TextBlock Style="{StaticResource SubHeader}">- 2017</TextBlock>
+            <TextBlock />
+            <Separator />
+            <TextBlock Style="{StaticResource Footer}">Website: csicness.github.io</TextBlock>
+            <Separator />
+            <TextBlock Style="{StaticResource Footer}">Github: github.com/csicness</TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>
